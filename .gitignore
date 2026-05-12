@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.env
+.venv/
+venv/
+.DS_Store
+.idea/
+.vscode/
+*.log
+tasmac_violations_progress.json
