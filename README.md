@@ -1,5 +1,7 @@
 # TASMAC List Finder
 
+**Last updated:** 12 May 2026, 12:51 IST
+
 Async Python tooling to discover TASMAC and government liquor shops across Tamil Nadu with the Google Places API, then flag proximity violations near places of worship, schools, and bus stands.
 
 The repository includes the scanner, a Tamil Nadu-only summary filter, and the generated datasets from a full-state run.
@@ -27,11 +29,15 @@ The repository includes the scanner, a Tamil Nadu-only summary filter, and the g
 
 From `tasmac_tn_summary_tamilnadu_only.csv`:
 
-- Shops: 1,940
-- Total violations: 102,266
-- Near worship: 92,354
-- Near schools: 7,347
-- Near bus stands: 2,565
+**102,266** total violations across **1,940** Tamil Nadu shops.
+
+Every shop in that file has at least one violation.
+
+| Category | Count |
+| --- | ---: |
+| Near worship | 92,354 |
+| Near schools | 7,347 |
+| Near bus stands | 2,565 |
 
 ## Requirements
 
